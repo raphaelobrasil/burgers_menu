@@ -10,6 +10,7 @@ interface color {
   quaternary: string
   quinary: string
   bgPrimary: string
+  senary: string
 }
 
 interface space {

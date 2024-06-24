@@ -10,7 +10,8 @@ export const theme: DefaultTheme = {
     tertiary: '#4F372F',
     quaternary: '#DADADA',
     quinary: '#8A94A4',
-    bgPrimary: '#EEEEEE'
+    bgPrimary: '#EEEEEE',
+    senary: '#36231C'
   },
   space: {
     small: '8px',

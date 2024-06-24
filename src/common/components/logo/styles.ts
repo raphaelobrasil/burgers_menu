@@ -7,22 +7,21 @@ export const LogoRoot = styled.figure`
   position: relative;
   width: 100%;
   height: 150px;
+  background-color: ${theme.color.senary};
   
   div {
     width: 100%;
     height: 150px;
     position: absolute;
     z-index: 2;
-    background: linear-gradient(90deg, #36231C 30.92%, rgba(54, 35, 28, 0) 50.56%, #36231C 66.88%);
-
+    background: linear-gradient(90deg, ${theme.color.senary} 30.92%, rgba(54, 35, 28, 0) 50.56%, ${theme.color.senary} 66.88%);
     
     @media only screen and (min-width: ${theme.breakpoint.xlarge}px) {
-      background: linear-gradient(90deg, #36231C 35.92%, rgba(54, 35, 28, 0) 50.56%, #36231C 60.88%);
+      background: linear-gradient(90deg, ${theme.color.senary} 35.92%, rgba(54, 35, 28, 0) 50.56%, ${theme.color.senary} 60.88%);
     }
-  
-    
+      
     @media only screen and (max-width: ${theme.breakpoint.mobile}px) {
-      background: linear-gradient(90deg, #36231C 2.92%, rgba(54, 35, 28, 0) 40.56%, #36231C 98.88%);
+      background: linear-gradient(90deg, ${theme.color.senary} 2.92%, rgba(54, 35, 28, 0) 40.56%, ${theme.color.senary} 98.88%);
     }
   }
 
